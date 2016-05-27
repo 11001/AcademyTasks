@@ -1,10 +1,9 @@
 <?php
 namespace Marvel\Britain;
 
-class Captaine_Britain
+use Marvel\Hero;
+
+class Captaine_Britain extends Hero
 {
-    public static function whoami()
-    {
-    	return 'I\'m Captaine Britain from Britain';
-    }
+
 }

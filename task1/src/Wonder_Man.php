@@ -1,10 +1,8 @@
 <?php
 namespace Marvel\Paterson;
 
-class Wonder_Man
+use Marvel\Hero;
+
+class Wonder_Man extends Hero
 {
-    public static function whoami()
-    {
-    	return 'I\'m Wonder Man from Paterson';
-    }
 }

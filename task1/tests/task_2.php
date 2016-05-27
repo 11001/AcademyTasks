@@ -2,5 +2,5 @@
 
 require '../vendor/autoload.php';
 
-Greeting::say('my name');
+(new Greeting())->say('my name');
 

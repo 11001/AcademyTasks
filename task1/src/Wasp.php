@@ -1,10 +1,8 @@
 <?php
 namespace Marvel\Crascel;
 
-class Wasp
+use Marvel\Hero;
+
+class Wasp extends Hero
 {
-    public static function whoami()
-    {
-    	return 'I\'m Wasp from Crascel';
-    }
 }

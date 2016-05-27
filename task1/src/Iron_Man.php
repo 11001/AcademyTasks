@@ -1,10 +1,8 @@
 <?php
 namespace Marvel\LongIsland ;
 
-class Iron_Man
+use Marvel\Hero;
+
+class Iron_Man extends Hero
 {
-    public static function whoami()
-    {
-    	return 'I\'m Iron Man from Long Island';
-    }
 }

@@ -1,10 +1,8 @@
 <?php
 namespace Marvel\Dandy;
 
-class Beast
+use Marvel\Hero;
+
+class Beast extends Hero
 {
-    public static function whoami()
-    {
-    	return 'I\'m Beast from Dandy';
-    }
 }

@@ -1,10 +1,9 @@
 <?php
 namespace Marvel\Asgard;
 
-class Tor
+use Marvel\Hero;
+
+class Tor extends Hero
 {
-    public static function whoami()
-    {
-    	return 'I\'m Tor from Asgard';
-    }
+
 }

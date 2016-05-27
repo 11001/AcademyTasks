@@ -13,6 +13,7 @@ return array(
     'Marvel\\Crascel\\Wasp' => $baseDir . '/src/Wasp.php',
     'Marvel\\Dandy\\Beast' => $baseDir . '/src/Beast.php',
     'Marvel\\Elmsford\\Hank_Pym' => $baseDir . '/src/Hank_Pym.php',
+    'Marvel\\Hero' => $baseDir . '/src/Hero.php',
     'Marvel\\LongIsland\\Iron_Man' => $baseDir . '/src/Iron_Man.php',
     'Marvel\\Paterson\\Wonder_Man' => $baseDir . '/src/Wonder_Man.php',
     'RandomQuote' => $baseDir . '/lib/RandomQuote.php',
