@@ -10,6 +10,9 @@ use App\Commands\SendLift;
 use App\Commands\UnloadPeople;
 use App\Exceptions\CommandException;
 
+/**
+ * waiting for user commands
+ */
 while (true) {
     fwrite(STDOUT, '>');
     try {
@@ -19,12 +22,23 @@ while (true) {
     }
 }
 
+/**
+ * Parse user command
+ * @param $command_string
+ * @throws CommandException
+ */
 function parseCommandString($command_string)
 {
     $command_array = array_map('trim', explode("&&", trim($command_string)));
     foreach ($command_array as $command) execCommand($command);
 }
 
+/**
+ * Exec user command
+ *
+ * @param $command
+ * @throws CommandException
+ */
 function execCommand($command)
 {
     $command_array = array_map('trim', explode(" ", trim($command)));
