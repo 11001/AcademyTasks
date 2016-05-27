@@ -34,7 +34,7 @@ function parseCommandString($command_string)
 }
 
 /**
- * Exec user command
+ * Exec user command. Available commands: state, load, unload, send, exit
  *
  * @param $command
  * @throws CommandException
