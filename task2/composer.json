@@ -1,0 +1,13 @@
+{
+    "name": "alex/task2",
+    "authors": [
+        {
+            "name": "11001",
+            "email": "mylkini@yandex.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
