@@ -25,10 +25,10 @@ RIGHT JOIN users ON res.id = users.id
 WHERE res.id IS NULL
 
 --Написать запрос который добавит поле is_active в таблицу users;
-ALTER TABLE users ADD COLUMN isactive BOOL NULL DEFAULT 0;
+ALTER TABLE users ADD COLUMN is_active BOOL NULL DEFAULT 0;
 
 --Написать запрос, который проставит is_active = 1 для пользователей, которые взяли как минимум одну книгу
-UPDATE users a INNER JOIN users_books b ON a.id=b.user_id SET a.isactive=1;
+UPDATE users a INNER JOIN users_books b ON a.id=b.user_id SET a.is_active=1;
 
 --Написать запрос который добавит поле best_seller (bool) в таблицу books
 ALTER TABLE books ADD COLUMN best_seller BOOL NULL DEFAULT 0;
