@@ -2,6 +2,10 @@
 
 namespace App\Operations;
 
+/**
+ * Class Difference
+ * @package App\Operations
+ */
 class Difference extends Operation
 {
     /**

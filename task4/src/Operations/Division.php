@@ -2,6 +2,10 @@
 
 namespace App\Operations;
 
+/**
+ * Class Division
+ * @package App\Operations
+ */
 class Division extends Operation
 {
     /**

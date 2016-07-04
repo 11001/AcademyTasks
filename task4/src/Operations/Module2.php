@@ -2,6 +2,10 @@
 
 namespace App\Operations;
 
+/**
+ * Class Module2
+ * @package App\Operations
+ */
 class Module2 extends Operation
 {
     /**

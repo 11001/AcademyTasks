@@ -2,6 +2,10 @@
 
 namespace App\Operations;
 
+/**
+ * Class Addition
+ * @package App\Operations
+ */
 class Addition extends Operation
 {
     /**

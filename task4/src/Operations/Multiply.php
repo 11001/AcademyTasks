@@ -2,6 +2,10 @@
 
 namespace App\Operations;
 
+/**
+ * Class Multiply
+ * @package App\Operations
+ */
 class Multiply extends Operation
 {
     /**
