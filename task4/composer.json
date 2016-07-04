@@ -1,0 +1,15 @@
+{
+    "name": "alex/task4",
+    "authors": [
+        {
+            "name": "11001",
+            "email": "mylkini@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
