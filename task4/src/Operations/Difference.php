@@ -16,7 +16,7 @@ class Difference extends Operation
      */
     public function exec(array &$operands = array()) : int
     {
-        if (self::checkOperands($operands)) return;
+        self::checkOperands($operands);
         $result = $operands[0];
         for ($i = 1; $i < count($operands); $i++) $result -= $operands[$i];
         $this->logger->log($this, $operands, $result);

@@ -22,3 +22,183 @@
 2016-07-04T14:35:25+00:00 Division Operands: 75,2 Result:37
 
 2016-07-04T14:35:25+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:43:52+00:00 Addition Operands: 1,12,12 Result:25
+
+2016-07-04T14:43:52+00:00 Addition Operands: 25,12 Result:37
+
+2016-07-04T14:43:52+00:00 Multiply Operands: 37,2 Result:74
+
+2016-07-04T14:43:52+00:00 Addition Operands: 74,1 Result:75
+
+2016-07-04T14:43:52+00:00 Division Operands: 75,2 Result:37
+
+2016-07-04T14:43:52+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:44:08+00:00 Addition Operands: 1,12,12 Result:25
+
+2016-07-04T14:44:08+00:00 Addition Operands: 25,12 Result:37
+
+2016-07-04T14:44:08+00:00 Multiply Operands: 37,2 Result:74
+
+2016-07-04T14:44:08+00:00 Addition Operands: 74,1 Result:75
+
+2016-07-04T14:44:08+00:00 Division Operands: 75,2 Result:37
+
+2016-07-04T14:44:08+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:44:20+00:00 Addition Operands: 1,12,12 Result:25
+
+2016-07-04T14:44:20+00:00 Addition Operands: 25,12 Result:37
+
+2016-07-04T14:44:20+00:00 Multiply Operands: 37,2 Result:74
+
+2016-07-04T14:44:20+00:00 Addition Operands: 74,1 Result:75
+
+2016-07-04T14:44:20+00:00 Division Operands: 75,2 Result:37
+
+2016-07-04T14:44:20+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:45:16+00:00 Addition Operands: 1,12,12 Result:25
+
+2016-07-04T14:45:16+00:00 Addition Operands: 25,12 Result:37
+
+2016-07-04T14:45:16+00:00 Multiply Operands: 37,2 Result:74
+
+2016-07-04T14:45:16+00:00 Addition Operands: 74,1 Result:75
+
+2016-07-04T14:45:16+00:00 Division Operands: 75,2 Result:37
+
+2016-07-04T14:45:16+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:45:24+00:00 Addition Operands: 0,1,12,12 Result:25
+
+2016-07-04T14:45:24+00:00 Addition Operands: 25,12 Result:37
+
+2016-07-04T14:45:24+00:00 Multiply Operands: 37,2 Result:74
+
+2016-07-04T14:45:24+00:00 Addition Operands: 74,1 Result:75
+
+2016-07-04T14:45:24+00:00 Division Operands: 75,2 Result:37
+
+2016-07-04T14:45:24+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:47:09+00:00 Addition Operands: 0,1,12,12 Result:25
+
+2016-07-04T14:47:09+00:00 Addition Operands: 25,12 Result:37
+
+2016-07-04T14:47:09+00:00 Multiply Operands: 37,2 Result:74
+
+2016-07-04T14:47:09+00:00 Addition Operands: 74,1 Result:75
+
+2016-07-04T14:47:09+00:00 Division Operands: 75,2 Result:37
+
+2016-07-04T14:47:09+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:47:17+00:00 Addition Operands: 1,1,12,12 Result:26
+
+2016-07-04T14:47:17+00:00 Addition Operands: 26,12 Result:38
+
+2016-07-04T14:47:17+00:00 Multiply Operands: 38,2 Result:76
+
+2016-07-04T14:47:17+00:00 Addition Operands: 76,1 Result:77
+
+2016-07-04T14:47:17+00:00 Division Operands: 77,2 Result:38
+
+2016-07-04T14:47:17+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:47:21+00:00 Addition Operands: 0,1,12,12 Result:25
+
+2016-07-04T14:47:21+00:00 Addition Operands: 25,12 Result:37
+
+2016-07-04T14:47:21+00:00 Multiply Operands: 37,2 Result:74
+
+2016-07-04T14:47:21+00:00 Addition Operands: 74,1 Result:75
+
+2016-07-04T14:47:21+00:00 Division Operands: 75,2 Result:37
+
+2016-07-04T14:47:21+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:48:34+00:00 Addition Operands: 1,12,12 Result:25
+
+2016-07-04T14:48:34+00:00 Addition Operands: 25,12 Result:37
+
+2016-07-04T14:48:34+00:00 Multiply Operands: 37,2 Result:74
+
+2016-07-04T14:48:34+00:00 Addition Operands: 74,1 Result:75
+
+2016-07-04T14:48:34+00:00 Division Operands: 75,2 Result:37
+
+2016-07-04T14:48:34+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:49:50+00:00 Addition Operands: 12,12 Result:24
+
+2016-07-04T14:49:50+00:00 Addition Operands: 24,12 Result:36
+
+2016-07-04T14:49:50+00:00 Multiply Operands: 36,2 Result:72
+
+2016-07-04T14:49:50+00:00 Addition Operands: 72,1 Result:73
+
+2016-07-04T14:49:50+00:00 Division Operands: 73,2 Result:36
+
+2016-07-04T14:49:50+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:50:20+00:00 Addition Operands: 12,12 Result:24
+
+2016-07-04T14:50:20+00:00 Addition Operands: 24,12 Result:36
+
+2016-07-04T14:50:20+00:00 Multiply Operands: 36,2 Result:72
+
+2016-07-04T14:50:20+00:00 Addition Operands: 72,1 Result:73
+
+2016-07-04T14:50:20+00:00 Division Operands: 73,2 Result:36
+
+2016-07-04T14:50:20+00:00 Module2 Operands: 6 Result:64
+
+2016-07-04T14:50:44+00:00 Addition Operands: 12,12 Result:24
+
+2016-07-04T14:50:44+00:00 Addition Operands: 24,12 Result:36
+
+2016-07-04T14:50:44+00:00 Multiply Operands: 36,2 Result:72
+
+2016-07-04T14:50:44+00:00 Addition Operands: 72,1 Result:73
+
+2016-07-04T14:50:58+00:00 Addition Operands: 12,12 Result:24
+
+2016-07-04T14:50:58+00:00 Addition Operands: 24,12 Result:36
+
+2016-07-04T14:50:58+00:00 Multiply Operands: 36,2 Result:72
+
+2016-07-04T14:50:58+00:00 Addition Operands: 72,1 Result:73
+
+2016-07-04T14:54:00+00:00 Addition Operands: 12,12 Result:24
+
+2016-07-04T14:54:00+00:00 Addition Operands: 24,12 Result:36
+
+2016-07-04T14:54:00+00:00 Multiply Operands: 36,2 Result:72
+
+2016-07-04T14:54:00+00:00 Addition Operands: 72,1 Result:73
+
+2016-07-04T14:55:10+00:00 Addition Operands: 12,12 Result:24
+
+2016-07-04T14:55:10+00:00 Addition Operands: 24,12 Result:36
+
+2016-07-04T14:55:10+00:00 Multiply Operands: 36,2 Result:72
+
+2016-07-04T14:55:10+00:00 Addition Operands: 72,1 Result:73
+
+2016-07-04T14:55:26+00:00 Addition Operands: 12,12 Result:24
+
+2016-07-04T14:55:26+00:00 Addition Operands: 24,12 Result:36
+
+2016-07-04T14:55:26+00:00 Multiply Operands: 36,2 Result:72
+
+2016-07-04T14:55:26+00:00 Addition Operands: 72,1 Result:73
+
+2016-07-04T14:58:32+00:00 Addition Operands: 12,12 Result:24
+
+2016-07-04T14:58:32+00:00 Addition Operands: 24,12 Result:36
+
+2016-07-04T14:58:32+00:00 Multiply Operands: 36,2 Result:72
+
+2016-07-04T14:58:32+00:00 Addition Operands: 72,1 Result:73

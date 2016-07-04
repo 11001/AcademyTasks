@@ -16,7 +16,7 @@ class Multiply extends Operation
      */
     public function exec(array &$operands = array()) : int
     {
-        if (self::checkOperands($operands)) return;
+        self::checkOperands($operands);
         $result = array_product($operands);
         $this->logger->log($this, $operands, $result);
         self::updateResult($operands, $result);

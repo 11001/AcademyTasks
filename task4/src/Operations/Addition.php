@@ -16,7 +16,7 @@ class Addition extends Operation
      */
     public function exec(array &$operands = array()) : int
     {
-        if (self::checkOperands($operands)) return 0;
+        self::checkOperands($operands);
         $result = array_sum($operands);
         $this->logger->log($this, $operands, $result);
         self::updateResult($operands, $result);

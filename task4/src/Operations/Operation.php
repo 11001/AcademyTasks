@@ -26,7 +26,6 @@ abstract class Operation implements IOperation
             $file = 'logs.txt';
             $data = PHP_EOL . date('c') . " " . $operation . " Operands: " . implode(',', $operands) . " Result:" . $result . PHP_EOL;
             file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
-
         }
     });
     }
@@ -39,7 +38,7 @@ abstract class Operation implements IOperation
      */
     protected function checkOperands(array $operands)
     {
-        if (!count($operands)) return false;
+            if (!count($operands)) throw new \ArithmeticError();
     }
 
     /**

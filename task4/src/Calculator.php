@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace App;
 
 use App\Operations\IOperation;
@@ -39,7 +41,7 @@ class Calculator implements ICalculator
      * @return mixed
      */
     public function process() : int
-    {
+    {   if (!$this->operation) throw new \ArithmeticError();
         return $this->operation->exec($this->operands);
     }
 
