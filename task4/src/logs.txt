@@ -1,48 +1,24 @@
 
-2016-07-04T14:25:59+00:00 Addition Operands: 11212 Result:25
+2016-07-04T14:35:23+00:00 Addition Operands: 1,12,12 Result:25
 
-2016-07-04T14:25:59+00:00 Addition Operands: 2512 Result:37
+2016-07-04T14:35:23+00:00 Addition Operands: 25,12 Result:37
 
-2016-07-04T14:25:59+00:00 Multiply Operands: 372 Result:74
+2016-07-04T14:35:23+00:00 Multiply Operands: 37,2 Result:74
 
-2016-07-04T14:25:59+00:00 Addition Operands: 741 Result:75
+2016-07-04T14:35:23+00:00 Addition Operands: 74,1 Result:75
 
-2016-07-04T14:25:59+00:00 Division Operands: 752 Result:37
+2016-07-04T14:35:23+00:00 Division Operands: 75,2 Result:37
 
-2016-07-04T14:25:59+00:00 Module2 Operands: 6 Result:64
+2016-07-04T14:35:23+00:00 Module2 Operands: 6 Result:64
 
-2016-07-04T14:27:39+00:00 Addition Operands: 11212 Result:25
+2016-07-04T14:35:25+00:00 Addition Operands: 1,12,12 Result:25
 
-2016-07-04T14:27:39+00:00 Addition Operands: 2512 Result:37
+2016-07-04T14:35:25+00:00 Addition Operands: 25,12 Result:37
 
-2016-07-04T14:27:39+00:00 Multiply Operands: 372 Result:74
+2016-07-04T14:35:25+00:00 Multiply Operands: 37,2 Result:74
 
-2016-07-04T14:27:39+00:00 Addition Operands: 741 Result:75
+2016-07-04T14:35:25+00:00 Addition Operands: 74,1 Result:75
 
-2016-07-04T14:27:39+00:00 Division Operands: 752 Result:37
+2016-07-04T14:35:25+00:00 Division Operands: 75,2 Result:37
 
-2016-07-04T14:27:39+00:00 Module2 Operands: 6 Result:64
-
-2016-07-04T14:31:46+00:00 Addition Operands: 11212 Result:25
-
-2016-07-04T14:31:46+00:00 Addition Operands: 2512 Result:37
-
-2016-07-04T14:31:46+00:00 Multiply Operands: 372 Result:74
-
-2016-07-04T14:31:46+00:00 Addition Operands: 741 Result:75
-
-2016-07-04T14:31:46+00:00 Division Operands: 752 Result:37
-
-2016-07-04T14:31:46+00:00 Module2 Operands: 6 Result:64
-
-2016-07-04T14:32:29+00:00 Addition Operands: 1,12,12 Result:25
-
-2016-07-04T14:32:29+00:00 Addition Operands: 25,12 Result:37
-
-2016-07-04T14:32:29+00:00 Multiply Operands: 37,2 Result:74
-
-2016-07-04T14:32:29+00:00 Addition Operands: 74,1 Result:75
-
-2016-07-04T14:32:29+00:00 Division Operands: 75,2 Result:37
-
-2016-07-04T14:32:29+00:00 Module2 Operands: 6 Result:64
+2016-07-04T14:35:25+00:00 Module2 Operands: 6 Result:64
