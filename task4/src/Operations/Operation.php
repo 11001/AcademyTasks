@@ -17,7 +17,7 @@ abstract class Operation implements IOperation
             public function log($operation, array $operands, int $result)
             {
                 $file = 'logs.txt';
-                $data =   PHP_EOL . date('c') . " " .  $operation . " Operands: "  . implode($operands) . " Result:" . $result . PHP_EOL;
+                $data =   PHP_EOL . date('c') . " " .  $operation . " Operands: "  . implode(',', $operands) . " Result:" . $result . PHP_EOL;
                 file_put_contents($file, $data, FILE_APPEND | LOCK_EX);
 
             }
