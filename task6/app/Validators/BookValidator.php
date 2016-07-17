@@ -10,11 +10,16 @@ class BookValidator extends LaravelValidator
 
     protected $rules = [
         ValidatorInterface::RULE_CREATE => [
-            'title' => 'required|string',
+            'title' => 'required|alpha',
             'year' => 'required|integer',
-            'author' => 'required|string',
-            'genre' => 'required|string',
+            'author' => 'required|alpha',
+            'genre' => 'required|alpha',
         ],
-        ValidatorInterface::RULE_UPDATE => [],
+        ValidatorInterface::RULE_UPDATE => [
+            'title' => 'required|alpha',
+            'year' => 'required|integer',
+            'author' => 'required|alpha',
+            'genre' => 'required|alpha',
+        ],
    ];
 }

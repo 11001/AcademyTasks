@@ -26,8 +26,15 @@ class BooksController extends Controller
      */
     protected $validator;
 
+    private $user;
+
+    /**
+     * @param BookRepository $repository
+     * @param BookValidator $validator
+     */
     public function __construct(BookRepository $repository, BookValidator $validator)
     {
+        $this->user = \Auth::user();
         $this->repository = $repository;
         $this->validator  = $validator;
     }
@@ -41,8 +48,11 @@ class BooksController extends Controller
     public function index()
     {
         $this->repository->pushCriteria(app('Prettus\Repository\Criteria\RequestCriteria'));
-        $books = $this->repository->paginate(10);
 
+        if ($this->user->is('admin')) $books = $this->repository;
+        else $books = $this->user->books();
+
+        $books = $books->paginate(10);
         if (request()->wantsJson()) {
 
             return response()->json([
@@ -62,6 +72,7 @@ class BooksController extends Controller
      */
     public function store(BookCreateRequest $request)
     {
+        if (!$this->user->is('admin')) return;
         try {
             $this->validator->with($request->all())->passesOrFail(ValidatorInterface::RULE_CREATE);
             $book = $this->repository->create($request->all());
@@ -116,6 +127,7 @@ class BooksController extends Controller
      */
     public function create()
     {
+        if (!$this->user->is('admin')) return redirect()->to('book');
         return view('books.create');
     }
 
@@ -128,6 +140,7 @@ class BooksController extends Controller
      */
     public function edit($id)
     {
+        if (!$this->user->is('admin')) return redirect()->to('book');
         $book = $this->repository->find($id);
         return view('books.edit', compact('book'));
     }
@@ -143,6 +156,7 @@ class BooksController extends Controller
      */
     public function update(BookUpdateRequest $request, $id)
     {
+        if (!$this->user->is('admin')) return;
         try {
             $this->validator->with($request->all())->passesOrFail(ValidatorInterface::RULE_UPDATE);
             $book = $this->repository->update($request->all(), $id);
@@ -175,6 +189,7 @@ class BooksController extends Controller
      */
     public function destroy($id)
     {
+        if (!$this->user->is('admin')) return;
         $deleted = $this->repository->delete($id);
         if (request()->wantsJson()) {
 

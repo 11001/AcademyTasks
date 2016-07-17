@@ -15,6 +15,9 @@
                     <li><a href="{!! route('book.index') !!}">Books</a></li>
                     <li><a href="{!! route('user.index') !!}">Users</a></li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{!! url('logout') !!}">Logout</a></li>
+                </ul>
             </div>
         </div>
     </nav>

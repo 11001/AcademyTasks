@@ -5,5 +5,5 @@
 @stop
 
 @section('content')
-    @include('books.form')
+    @include('users.form')
 @stop

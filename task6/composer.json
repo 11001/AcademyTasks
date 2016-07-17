@@ -8,7 +8,10 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "laravelcollective/html": "5.2.*",
-        "prettus/l5-repository": "^2.6"
+        "prettus/l5-repository": "^2.6",
+        "laravel/socialite": "^2.0",
+        "adamwathan/eloquent-oauth-l5": "^0.4.2",
+        "dcn/rbac": "~1.1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

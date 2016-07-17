@@ -12,51 +12,66 @@
 */
 
 Route::get('/', function () {
-    return redirect('/user');
+    return redirect('/book');
 });
 
-Route::resource('user', 'UsersController', [
-    'except' => 'show',
-    'names' => [
-        'index' => 'user.index',
-        'create' => 'user.create',
-        'store' => 'user.store',
-        'show' => 'user.show',
-        'update' => 'user.update',
-        'edit' => 'user.edit',
-        'destroy' => 'user.destroy',
-    ],
-]);
+Route::get('google/authorize', function() {
+    return \SocialAuth::authorize('google');
+});
 
-Route::post('attach_book/{book_id}/user/{user_id}', [
-    'uses' => 'LibraryController@attachBook',
-    'as'   => 'library.attach_book',
-]);
+Route::get('google/login', function() {
+    \SocialAuth::login('google');
+    return \Redirect::intended();
+});
 
-Route::post('remove_book/{book_id}/user/{user_id}', [
-    'uses' => 'LibraryController@detachBook',
-    'as'   => 'library.detach_book',
-]);
+Route::auth();
 
-Route::get('attach_book/{book_id}', [
-    'uses' => 'LibraryController@attachBookToUser',
-    'as'   => 'library.attach_book',
-]);
+Route::group(['middleware' =>  \App\Http\Middleware\Authenticate::class,], function () {
+    Route::resource('user', 'UsersController', [
+        'except' => 'show',
+        'names' => [
+            'index' => 'user.index',
+            'create' => 'user.create',
+            'store' => 'user.store',
+            'show' => 'user.show',
+            'update' => 'user.update',
+            'edit' => 'user.edit',
+            'destroy' => 'user.destroy',
+        ],
+    ]);
 
-Route::get('attach_user/{book_id}', [
-    'uses' => 'LibraryController@attachUserToBook',
-    'as'   => 'library.attach_user',
-]);
+    Route::post('attach_book/{book_id}/user/{user_id}', [
+        'uses' => 'LibraryController@attachBook',
+        'as' => 'library.attach_book',
+    ]);
 
-Route::resource('book', 'BooksController', [
-    'except' => 'show',
-    'names' => [
-        'index' => 'book.index',
-        'create' => 'book.create',
-        'store' => 'book.store',
-        'show' => 'book.show',
-        'update' => 'book.update',
-        'edit' => 'book.edit',
-        'destroy' => 'book.destroy',
-    ],
-]);
+    Route::post('remove_book/{book_id}/user/{user_id}', [
+        'uses' => 'LibraryController@detachBook',
+        'as' => 'library.detach_book',
+    ]);
+
+    Route::get('attach_book/{book_id}', [
+        'uses' => 'LibraryController@attachBookToUser',
+        'as' => 'library.attach_book',
+    ]);
+
+    Route::get('attach_user/{book_id}', [
+        'uses' => 'LibraryController@attachUserToBook',
+        'as' => 'library.attach_user',
+    ]);
+
+    Route::resource('book', 'BooksController', [
+        'except' => 'show',
+        'names' => [
+            'index' => 'book.index',
+            'create' => 'book.create',
+            'store' => 'book.store',
+            'show' => 'book.show',
+            'update' => 'book.update',
+            'edit' => 'book.edit',
+            'destroy' => 'book.destroy',
+        ],
+    ]);
+});
+
+

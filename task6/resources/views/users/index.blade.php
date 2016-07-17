@@ -1,12 +1,17 @@
 @extends('layout.master')
 
+
 @section('content-header')
     Users
 @stop
 
 @section('content')
+    @role('admin')
     {!! $message or '' !!}
-    <a class="btn btn-success" href="{!! route('user.create') !!}">Create</a>
+
+        <a class="btn btn-success" href="{!! route('user.create') !!}">Create</a>
+    @endrole
+
     <?php $i = 1; ?>
     <div class="table-responsive">
         <table class="table">

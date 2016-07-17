@@ -15,7 +15,8 @@ $factory->define(App\Entities\User::class, function (Faker\Generator $faker) {
     return [
         'firstname' => $faker->firstName,
         'lastname' => $faker->lastName,
-        'email' => $faker->email
+        'email' => $faker->email,
+        'password' => bcrypt('password')
     ];
 });
 

@@ -10,10 +10,14 @@ class UserValidator extends LaravelValidator
 
     protected $rules = [
         ValidatorInterface::RULE_CREATE => [
-            'firstname' => 'required|string',
-            'lastname' => 'required|integer',
-            'email' => 'required|email|unique',
+            'firstname' => 'required|alpha',
+            'lastname' => 'required|alpha',
+            'email' => 'required|email|unique:users',
         ],
-        ValidatorInterface::RULE_UPDATE => [],
+        ValidatorInterface::RULE_UPDATE => [
+            'firstname' => 'required|alpha',
+            'lastname' => 'required|alpha',
+            'email' => 'required|email|unique:users',
+        ],
    ];
 }

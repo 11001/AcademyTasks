@@ -1,9 +1,11 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use DCN\RBAC\Models\Role;
 
 class DatabaseSeeder extends Seeder
 {
+
     /**
      * Run the database seeds.
      *
@@ -13,5 +15,6 @@ class DatabaseSeeder extends Seeder
     {
          $this->call(UserSeeder::class);
          $this->call(BookSeeder::class);
+
     }
 }

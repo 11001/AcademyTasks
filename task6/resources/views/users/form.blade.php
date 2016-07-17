@@ -1,7 +1,7 @@
 @if(isset($user))
     {!! Form::model($user, ['method' => 'PUT', 'files' => true, 'route' => ['user.update', $user->id]]) !!}
 @else
-    {!! Form::open(['files' => true, 'route' => 'email.store']) !!}
+    {!! Form::open(['files' => true, 'route' => 'user.store']) !!}
 @endif
 
 <div class="form-group {{ $errors->has('firstname') ? 'has-error' : ''}}">
