@@ -1,0 +1,167 @@
+body{
+    min-width: 960px;
+    margin: 0;
+}
+
+header{
+    border: solid;
+    height: 100px;    
+}
+
+header a.logo{
+    border-right: solid black;
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;    
+}
+
+header h1{
+    line-height: 100px;
+    float: left;
+    margin: 0 0 0 20px;
+    padding: 0;
+    font-weight: normal;
+}
+
+.container {
+    display: table;
+    width: 100%;
+}
+
+.container aside {    
+    border: solid;
+    border-top: none;
+    display: table-cell;
+    vertical-align: top;
+    width: 300px; 
+}
+
+.container section {
+    border: solid;
+    border-top: none;
+    border-left: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.container aside nav a{
+    display: block;
+    text-align: left;
+    padding: 4px 0;
+    text-decoration: none;
+    border: solid;
+    border-top: none;
+    color: black;
+    min-height: 20px;
+    line-height: 20px;
+}
+
+.container aside nav a:first-child {
+    border-top: solid;
+}
+
+.container section article .block {
+    border: solid;
+    float: left;
+    display: table;
+    position: relative;
+    overflow: hidden;
+}
+
+.container section article .block.ribbon:before,
+.container section article .block.ribbon:after {
+    display: block;
+    content: "";        
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    right: -35%;
+    top: -35%; 
+    border-bottom: 2px solid;
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);    
+    transform: rotate(45deg);
+}
+
+.container section article .block.ribbon:after {
+    right: -40%;
+    top: -40%;    
+}
+
+.container section article .block div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container section article.content-main {
+    padding: 20px 40px 20px 60px;
+}
+
+.container section article.content-main .wrapper:after {
+    display: block;
+    clear: both;
+    height: 0;
+    font-style: 0;
+    content: "";
+}
+
+.container section article.content-main .block {
+    text-align: center;
+    height: 120px;    
+    margin: 10px;
+    width: 28%;
+    padding-left: 1%;
+}
+
+.container section article.secondary {
+    padding: 20px 0 20px 20px;
+}
+
+.container section article.secondary {
+    border-bottom: 2px solid;
+}
+
+.container section article.secondary .block {
+    height: 220px;    
+    margin: 40px 1% 60px;
+    width: 29.5%;
+    padding-left: 1%;
+}
+
+footer ul.blocks {
+    list-style: none;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+}
+
+footer ul.blocks li {
+    border: solid;
+    border-top: none;
+    border-left: none;
+    display: table-cell;
+    padding: 0;
+    margin: 0;    
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+footer ul.blocks li:first-child {
+    border-left: 2px solid;
+}
+
+footer p {
+    border: solid;
+    border-top: none;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
